@@ -1714,6 +1714,27 @@ a { text-decoration: none; color: inherit; }
 }
 .footer-col a:hover { color: var(--blue-300); }
 
+.footer-link-soon {
+    font-size: 0.875rem;
+    color: var(--gray-600);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: default;
+}
+
+.soon-badge {
+    font-size: 0.625rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--blue-300);
+    background: rgba(59, 130, 246, 0.1);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    padding: 1px 6px;
+    border-radius: 4px;
+}
+
 .footer-bottom {
     border-top: 1px solid rgba(255,255,255,0.08);
     padding-top: 24px;
